@@ -1,0 +1,27 @@
+
+#chessBoard{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+td {
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.white,
+.black {
+    cursor: pointer;
+    user-select: none;
+}
+
+#move-header{
+    color: #ff5722;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 30px;
+}
